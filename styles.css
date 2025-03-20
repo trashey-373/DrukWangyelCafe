@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(108, 117, 145, 0.541);
+}
+
+.menu-container {
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    /* background-image: url(head.jpg); */
+    background-repeat: repeats;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: multiply;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+.company-name h4 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+h3 {   
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.item {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+/* Background Images for Categories */
+#tea, #liquor, #snacks, #pastry, #buffet {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#tea {
+    background-image: url('dochula2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(159, 160, 158);
+    background-blend-mode: multiply;
+}
+
+#liquor {
+    background-image: url('Gate.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(161, 167, 155);
+    background-blend-mode: multiply;
+}
+
+#snacks {
+    background-image: url('Druk-Wangyel-Cafe.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(120, 121, 119);
+    background-blend-mode: multiply;
+}
+
+#pastry {
+    background-image: url(60th-cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(144, 145, 143);
+    background-blend-mode: multiply;
+}
+
+#buffet {
+    background-image: url('Inside-Cafe.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(218, 219, 218);
+    background-blend-mode: multiply;
+}
+
+footer{
+    background-image: url(Gate1.jpg);
+    border-radius: 10px;
+    color: aliceblue;
+    background-position: center;
+    background-size:cover;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: multiply;
+    font-weight: bolder;
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+        margin-top: 2px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .company-name h4 {
+        font-size: 18px;
+    }
+
+    .menu-container {
+        padding: 1px;
+        text-align: center;
+        font-size: 15PX;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .item {
+        font-size: 14px;
+    }
+
+    #tea, #liquor, #snacks, #pastry, #buffet {
+        padding: 10px;
+    }
+
+    h5{
+        font-size: 20px;
+    }
+}
